@@ -1,0 +1,23 @@
+git clone https://github.com/nicewaytodoit/t3t3.git
+cd t3t3/
+gitk
+git checkout --track origin/release
+git checkout -b feature/JIRA11
+branch
+git branch
+nano Release2.txt
+git pull origin release
+nano 'OnlyRelease 1.txt'
+git status
+git add .
+git commit -am "This is feature new "
+nano featureN4.txt
+git commit -am "This is feature new 2"
+git add .
+git commit -am "This is feature new 2"
+git pull origin release
+git push -u origin feature/JIRA11
+git branch -a
+git checkout release
+git pull origin release
+git fetch -p
